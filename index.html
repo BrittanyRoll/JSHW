@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>JS HW</title>
+	<script>
+/*alerts pop up b4 page loads*/
+var c = 6;
+alert('Pizza is here!');
+
+console.log("answer to life is 42");
+
+/*change text by clicking*/
+function change(){
+	document.getElementById('p1').innerHTML = "Brittany Rocks!!!!";
+}
+
+/*global function, globally p=22, so it appears a 22 anywhere it is called upon as long as locally the fuction isnt defined as something else*/
+
+var p = 22;
+
+function pot(p){
+	console.log(p+1000)
+}
+
+pot(22);
+
+/*local function, globally b=15, but in britt function b=2015*/
+var b = 15;
+
+function britt(b){
+	var b = 2015
+	alert(b+" "+'altoclef')
+	console.log(b+5+00)
+}
+
+britt(b);
+
+console.log(b);
+
+if(5>10){
+		console.log("never be seen in console b/c 5 is not greater than 10")
+		}
+
+if(5<10){
+		console.log("will be seen in console b/c 5 is not greater than 10")
+		}
+
+/*if blank happens/is true, then run it, if not, show else*/
+if(5>10){
+		console.log("never be seen in console b/c 5 is not greater than 10")
+		} else {
+			console.log("this will run")
+		}
+
+
+
+//num2
+var v = "Hey"
+var b = "what is up"
+var n = "Mean Girls"
+
+function funct1(v){
+	console.log('hey')
+}
+
+funct1();
+
+function funct2(b){
+	console.log('What is up?')
+}
+
+funct2()
+
+function funct3(n){
+	console.log('Mean Girls')
+}
+
+funct3();
+
+// num3
+
+var a = 2;
+
+var b = 4;
+
+console.log(a+b);
+
+var names = 'Brittany';
+
+var days = 'wednesday';
+
+console.log(names+days);
+
+/*num5*/
+var x = 5;
+if (x<10){
+	alert('var is less than 10');
+} else{
+	console.log(x)
+	console.log('greater than 10');
+}
+
+//num6
+
+var x =11;
+if (x<10){
+	alert('var is less than 10');
+} else{
+	console.log(x)
+	console.log('greater than 10');
+}
+
+//num4
+var events = ["300m", "400h", "600m", "400m"];
+
+var longEvents = events.slice(-3);
+
+console.log(longEvents);
+
+//num10, enter door(door1)/ door(door2)/ or door(door3)
+var door1 = "1"
+
+var door2 = "2"
+
+var door3 = "3"
+
+function door(aDoor){
+	if (aDoor===door1){
+		alert("You got a medal!");
+	}else if (aDoor===door2){
+		alert("You got a katana!");
+	}else if(aDoor===door3){
+		alert("You got a puppy!");
+	}
+}
+</script>
+
+
+</head>
+
+<body>
+
+
+</body>
+</html>
